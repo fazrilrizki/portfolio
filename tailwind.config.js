@@ -6,7 +6,14 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      margin: {
+        '19' : '4rem',
+        '21' : '6rem',
+        '22' : '7rem',
+        '23' : '8rem',
+      }
+    },
   },
   plugins: [],
 }
