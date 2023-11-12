@@ -14,7 +14,7 @@
                 </p>
             
                 <!-- Icons -->
-                <div class="flex mt-4">
+                <div class="flex mt-4 mb-4">
                     <!-- Begins:Icons Github -->
                     <button type="button" data-te-ripple-init="" data-te-ripple-color="light" class="mb-2 mr-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg" style="background-color: rgb(51, 51, 51);">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
@@ -44,6 +44,15 @@
                     </button>
                     <!-- End:Icons Facebook -->
                 </div>
+                <!-- Begins:Buttons -->
+                <!-- Begins: Download CV -->
+                <button type="button" data-te-ripple-init="" data-te-ripple-color="light" class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg" style="background-color: rgb(51, 51, 51);">
+                    <a href="{{ asset('path/to/your/cv.pdf') }}" download>
+                        Download CV
+                    </a>
+                </button>
+                <!-- End: Download CV -->
+                <!-- End:Buttons -->
             </div>
             
 
