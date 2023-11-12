@@ -6,7 +6,7 @@ Home - Portfolio Website Fazril Rizki
     <div class="max-w-8xl p-8 bg-white shadow-lg rounded-md grid grid-cols-1 md:grid-cols-2 gap-8 mt-19">
         <div class="text-center md:text-left mt-20 ml-20">
             <p class="text-3xl font-semibold text-gray-700 mb-4" style="letter-spacing: 2px">
-                Hi, I'm <span class="auto-type text-green-500"></span>
+                Hello, I'm <span class="auto-type text-green-500"></span>
             </p>
             <p class="text-gray-600">
                 Welcome to my portfolio website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida cursus libero, non varius turpis volutpat vel.

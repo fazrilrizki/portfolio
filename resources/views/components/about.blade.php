@@ -20,7 +20,7 @@
         <!-- Konten tentang Anda yang sebelumnya berada di sebelah kanan, sekarang dipindahkan ke sebelah kanan -->
         <div class="flex items-center justify-center md:justify-end mr-23">
             <!-- Konten tentang Anda -->
-            <h1>TO DO LIST</h1>
+            <h1 class="text-3xl font-semibold text-gray-800 mb-4">About Me</h1>
         </div>
     </div>
 </div>
