@@ -1,11 +1,11 @@
-<nav class="bg-gray-800 flex justify-between px-4 py-2">
+<nav class="bg-gray-800 flex justify-between px-4 py-2 fixed top-0 left-0 w-full z-50">
     <div class="flex items-center">
         <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
         <span class="text-gray-300 px-3 py-2 text-sm font-medium">Fazril Rizki</span>
     </div>
     <div class="flex space-x-4">
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium">Home</a>
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium">About</a>
+        <a href="#home" onclick="scrollToSection('home')" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium">Home</a>
+        <a href="#about" onclick="scrollToSection('about')" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium">About</a>
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium">Skills</a>
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium">Education</a>
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium">Experience</a>

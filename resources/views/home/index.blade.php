@@ -63,6 +63,7 @@
             </div>
         </div>
     </div>
+    <x-about></x-about>
 </x-app-layout>
 <script>
     var typed = new Typed(".auto-type", {
