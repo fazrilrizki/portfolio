@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SendEmailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layouts.app-layout');
 });
+Route::post('/sendEmail', [SendEmailController::class, 'sendEmail'])->name('sendEmail');
