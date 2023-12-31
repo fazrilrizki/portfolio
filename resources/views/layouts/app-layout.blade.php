@@ -14,6 +14,18 @@
 </head>
 <body>
     <x-navbar></x-navbar>
+    @if (session('info'))
+        <div class="bg-green-500 text-white p-4 fixed bottom-0 right-0 m-4 rounded-md">
+            <div>
+                {{ session('info') }}
+            </div>
+            <button class="text-white hover:text-gray-200 float-right focus:outline-none" onclick="closeAlert()">
+                <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                </svg>
+            </button>
+        </div>
+    @endif
     <x-home></x-home>
     <x-about></x-about>
     <x-portfolio></x-portfolio>
@@ -22,6 +34,10 @@
     <x-footer></x-footer>
 </body>
 <script>
+    function closeAlert() {
+            document.querySelector('.alert').style.display = 'none';
+        }
+
   function scrollToSection(sectionId) {
         const section = document.getElementById(sectionId);
 

@@ -9,10 +9,10 @@
 <body>
     <h2>Contact Information</h2>
     <br>
-    <p><strong>Name:</strong> {{ $name }}</p>
+    <p><strong>Name:</strong> {{ $nameSender }}</p>
     <br>
-    <p><strong>Email:</strong> {{ $email }}</p>
+    <p><strong>Email:</strong> {{ $emailSender }}</p>
     <br>
-    <p><strong>Message:</strong> {{ $messageBody }}</p>
+    <p><strong>Message:</strong> {{ $isiPesan }}</p>
 </body>
 </html>

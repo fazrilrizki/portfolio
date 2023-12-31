@@ -11,5 +11,7 @@ class SendEmailController extends Controller
     public function sendEmail(Request $request)
     {
         Mail::to('fazrilrizkitantoadji@gmail.com')->locale(app()->getLocale())->send(new MailNotify($request->name, $request->email, $request->pesan));
+        
+        return redirect()->back()->with('info', 'Pesan email anda telah berhasil dikirim!');;
     }
 }

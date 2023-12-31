@@ -12,7 +12,7 @@ Home - Portfolio Website Fazril Rizki
                 </h1>
                 <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">Junior Full Stack Developer</h2>
                 <p class="font-medium text-slate-400 mb-10 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quasi?</p>
-                <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:bg-indigo-500">
+                <a href="https://drive.google.com/file/d/1p_Qxs1M-IXsDjGGhNaomNX_wjgsES87M/view?usp=sharing" target="_blank" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:bg-indigo-500">
                     Download CV
                 </a>
             </div>

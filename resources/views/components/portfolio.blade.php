@@ -34,13 +34,6 @@
                     <h3 class="font-semibold text-xl text-secondary mt-5 mb-3">Aplikasi Simpan Pinjam</h3>
                     <p class="font-medium text-base text-secondary">Aplikasi ini dirancang untuk memberikan solusi yang efektif dalam manajemen keuangan koperasi. Dengan fitur yang canggih, kami memudahkan proses pencatatan simpanan, penarikan, dan pemberian pinjaman bagi anggota koperasi.</p>
                 </div>
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="{{ asset('img/AW.PNG') }}" alt="portfolio1" width="w-full">
-                    </div>
-                    <h3 class="font-semibold text-xl text-secondary mt-5 mb-3">Fazril rizki portfilio 1</h3>
-                    <p class="font-medium text-base text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex corrupti nihil, mollitia magnam ab ipsa sed eligendi velit cumque suscipit!</p>
-                </div>
             </div>
         </div>
     </div>
